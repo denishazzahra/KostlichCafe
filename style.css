@@ -256,6 +256,9 @@ div.menu{
         margin:20px;
         line-height:1.8;
     }
+    .menu-price{
+        margin-top:2px;
+    }
     .menu-info div{
         display:flex;
         column-gap: 10px;
