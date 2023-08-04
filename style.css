@@ -32,6 +32,9 @@ html{
     top:50%;
     transform:translate(-50%,-50%);
 }
+.btn-nextpage:hover{
+    transform:scale(1.02);
+}
 #about .container{
     width:90%;
 }
@@ -143,13 +146,10 @@ div.menu{
 .menu .menu-grid{
     display: grid;
     grid-template-columns:33.3% 33.3% 33.3%;
-    /*row-gap: 50px;
-    column-gap: 50px;*/
 }
 .menu-grid .menu-item{
     display:block;
     margin:15px;
-    /*width:inherit;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .menu-item:hover{
@@ -233,13 +233,10 @@ div.menu{
     .menu .menu-grid{
         display: flex;
         flex-direction: column;
-        /*row-gap: 50px;
-        column-gap: 50px;*/
     }
     .menu-grid .menu-item{
         display:block;
         margin:15px;
-        /*width:inherit;*/
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .menu-item:hover{

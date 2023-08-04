@@ -11,11 +11,11 @@ function responsiveness(){
     var sticky1 = navbar1.offsetTop;
     const check=document.getElementById("check");
     if(!x.matches){
-        navbar1.classList.remove("sticky1");
+        navbar1.classList.remove("sticky");
         check.innerHTML="";
         window.onscroll = function() {myFunction()};
         function myFunction() {
-            if (window.pageYOffset > sticky) {
+            if (window.scrollY > sticky) {
                 navbar.classList.add("sticky")
             } else {
                 navbar.classList.remove("sticky");
@@ -27,10 +27,10 @@ function responsiveness(){
         check.innerHTML="<br><br><br><br>";
         window.onscroll = function() {myFunction1()};
         function myFunction1() {
-            if (window.pageYOffset > sticky1) {
-                navbar1.classList.add("sticky1")
+            if (window.scrollY > sticky1) {
+                navbar1.classList.add("sticky")
             } else {
-                navbar1.classList.remove("sticky1");
+                navbar1.classList.remove("sticky");
             }
         }
         const navbarItem = document.querySelector("#navbar-group");
