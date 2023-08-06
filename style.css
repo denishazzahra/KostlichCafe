@@ -9,6 +9,9 @@ html{
     margin:0;
     font-family:'Poppins', sans-serif;
 }
+body{
+    background-color: white;
+}
 #center{
     color:white;
     background-image: url('img/background-darken.png');
