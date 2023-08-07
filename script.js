@@ -1,10 +1,10 @@
 //Denisha Kyla Azzahra (123210130)
-var x = window.matchMedia("(max-width: 768px)")
 responsiveness();
 window.onresize=function(event){
     responsiveness();
 };
 function responsiveness(){
+    var x = window.matchMedia("(max-width: 768px)")
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
     var navbar1 = document.getElementById("header");
